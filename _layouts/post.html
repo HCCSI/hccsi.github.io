@@ -6,10 +6,10 @@ layout: default
   <div class="container">
 
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <h2 class="">
           <small class="d-block">
-            This Month's Service Index
+            {{ page.date | date: "%B" }}'s Service Index
           </small>
 
           <div class="display-4">
@@ -21,9 +21,9 @@ layout: default
           {{ page.lead }}
         </p>
       </div>
-      <div class="col-md-7">
+      <div class="col-lg-7">
         <h3>
-          What happened this month?
+          What happened in {{ page.date | date: "%B" }}?
         </h3>
 
         {{ content }}
@@ -33,14 +33,9 @@ layout: default
     <hr class="bg-dark my-4 pt-1">
 
     <div class="row align-items-center">
-      <div class="col-md-7">
-        {% include graph.html %}
+      <div class="col-md-5 order-md-12 my-3">
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-      <div class="col-md-5">
-
-        <h3>Top 5 contributors this month</h3>
+        <h3>Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h3>
 
         <ol class="">
           <li class="">Social Media: Engagement</li>
@@ -50,6 +45,17 @@ layout: default
           <li class="">Supervisor kennel inspections</li>
         </ol>
 
+      </div>
+      <div class="col-md-7 order-md-1 my-3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        <ul>
+          <li><a href="#">CDMSI</a></li>
+          <li><a href="#">CSSSI</a></li>
+          <li><a href="#">PRCSI</a></li>
+        </ul>
+
+        <!-- {% include graph.html %} -->
       </div>
     </div>
 
