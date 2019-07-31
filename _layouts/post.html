@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="py-5">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-5">
+        <h2 class="">
+          <small class="d-block">
+            This Month's Service Index
+          </small>
+
+          <div class="display-4">
+            {{ page.index }}
+          </div>
+        </h2>
+
+        <p class="lead">
+          {{ page.lead }}
+        </p>
+      </div>
+      <div class="col-md-7">
+        <h3>
+          What happened this month?
+        </h3>
+
+        {{ content }}
+      </div>
+    </div>
+
+    <hr class="bg-dark my-4 pt-1">
+
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        {% include graph.html %}
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="col-md-5">
+
+        <h3>Top 5 contributors this month</h3>
+
+        <ol class="">
+          <li class="">Social Media: Engagement</li>
+          <li class="">PR Production: Special Recognitions</li>
+          <li class="">Web: Avg. Problem Resolution Time</li>
+          <li class="">Citizen Engagement - Posted Signage</li>
+          <li class="">Supervisor kennel inspections</li>
+        </ol>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+window.monthKey = '{{ page.date | date: "%B" | downcase }}'
+</script>

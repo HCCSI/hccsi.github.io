@@ -1,0 +1,22 @@
+<div class="row no-gutters align-items-stretch justify-content-center">
+  {% for post in site.posts %}
+
+  <div class="col-sm-6 col-lg-4 col-xl-3 p-1">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="card v-card card-body list-group-item-action text-center d-flex flex-column h-100">
+      <div class="mb-2">
+        <span class="fa-3x fa-fw text-secondary far fa-chart-bar">
+        </span>
+      </div>
+      <div class="text-muted">
+        <em>
+          {{ post.date | date: "%B, %Y" }}
+        </em>
+      </div>
+      <div class="h5 font-weight-bold">
+        {{ post.index" }}
+      </div>
+    </a>
+  </div>
+
+  {% endfor %}
+</div>
