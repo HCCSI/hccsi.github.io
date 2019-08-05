@@ -1,0 +1,271 @@
+{
+    "name": "February, 2019",
+    "date": "2019-02-01",
+    "created_at": "2019-08-05T14:21:24.373Z",
+    "updated_at": "2019-08-05T14:21:24.373Z",
+    "points": 103.14,
+    "indicators": [
+        {
+            "name": "Web: Avg. Problem Resolution Time",
+            "points": 2.5,
+            "weight": 0.0167,
+            "goal_ratio": 1.4970059880239521
+        },
+        {
+            "name": "Food supplies - reserve multiple",
+            "points": 2.23,
+            "weight": 0.0167,
+            "goal_ratio": 1.3353293413173655
+        },
+        {
+            "name": "Average inspections/day",
+            "points": 2.67,
+            "weight": 0.02,
+            "goal_ratio": 1.335
+        },
+        {
+            "name": "Knowledge of Call Center Agents",
+            "points": 1.08,
+            "weight": 0.0083,
+            "goal_ratio": 1.3012048192771084
+        },
+        {
+            "name": "Average weekly volunteer hours",
+            "points": 3.02,
+            "weight": 0.0233,
+            "goal_ratio": 1.2961373390557938
+        },
+        {
+            "name": "Media Relations: Directors Survey",
+            "points": 2.78,
+            "weight": 0.025,
+            "goal_ratio": 1.1119999999999999
+        },
+        {
+            "name": "Public Relations: Directors Survey",
+            "points": 6.11,
+            "weight": 0.055,
+            "goal_ratio": 1.1109090909090908
+        },
+        {
+            "name": "Veterinarian clinic survey",
+            "points": 1.11,
+            "weight": 0.01,
+            "goal_ratio": 1.11
+        },
+        {
+            "name": "HTV: Program Review",
+            "points": 5.99,
+            "weight": 0.055,
+            "goal_ratio": 1.089090909090909
+        },
+        {
+            "name": "Neighborhood Relations Survey",
+            "points": 3.61,
+            "weight": 0.0333,
+            "goal_ratio": 1.084084084084084
+        },
+        {
+            "name": "Quality Assurance: In-House Consultancy",
+            "points": 5.36,
+            "weight": 0.05,
+            "goal_ratio": 1.072
+        },
+        {
+            "name": "Graphics: Customer Survey Score",
+            "points": 2.48,
+            "weight": 0.0233,
+            "goal_ratio": 1.0643776824034334
+        },
+        {
+            "name": "Kind, respectful, prompt service (PRC)",
+            "points": 2.47,
+            "weight": 0.0233,
+            "goal_ratio": 1.0600858369098711
+        },
+        {
+            "name": "Informative, educational service (PRC)",
+            "points": 2.47,
+            "weight": 0.0233,
+            "goal_ratio": 1.0600858369098711
+        },
+        {
+            "name": "Media Relations: Media Sentiment",
+            "points": 1.06,
+            "weight": 0.01,
+            "goal_ratio": 1.06
+        },
+        {
+            "name": "Citizen Engagement - Signage Turnaround",
+            "points": 3.51,
+            "weight": 0.0333,
+            "goal_ratio": 1.054054054054054
+        },
+        {
+            "name": "PR Production: Citizen Survey",
+            "points": 2.81,
+            "weight": 0.0267,
+            "goal_ratio": 1.0524344569288389
+        },
+        {
+            "name": "PR Production: Internal Users",
+            "points": 2.81,
+            "weight": 0.0267,
+            "goal_ratio": 1.0524344569288389
+        },
+        {
+            "name": "Courteousness of Call Center Agents",
+            "points": 2.63,
+            "weight": 0.025,
+            "goal_ratio": 1.0519999999999998
+        },
+        {
+            "name": "Web: Webpage Content Feedback",
+            "points": 2.6,
+            "weight": 0.025,
+            "goal_ratio": 1.04
+        },
+        {
+            "name": "Enjoyable experience (PRC)",
+            "points": 2.39,
+            "weight": 0.0233,
+            "goal_ratio": 1.0257510729613732
+        },
+        {
+            "name": "Citizen Engagement - Posted Signage",
+            "points": 1.71,
+            "weight": 0.0167,
+            "goal_ratio": 1.0239520958083832
+        },
+        {
+            "name": "Call Center - Calls Handled",
+            "points": 1.7,
+            "weight": 0.0167,
+            "goal_ratio": 1.0179640718562875
+        },
+        {
+            "name": "Supervisor kennel inspections",
+            "points": 3.05,
+            "weight": 0.03,
+            "goal_ratio": 1.0166666666666666
+        },
+        {
+            "name": "Web: Customer Satisfaction",
+            "points": 1.67,
+            "weight": 0.0167,
+            "goal_ratio": 1.0
+        },
+        {
+            "name": "Adopting family survey",
+            "points": 2.33,
+            "weight": 0.0233,
+            "goal_ratio": 1.0
+        },
+        {
+            "name": "Licenses processed",
+            "points": 2.0,
+            "weight": 0.02,
+            "goal_ratio": 1.0
+        },
+        {
+            "name": "Call Center - Software system handling",
+            "points": 1.66,
+            "weight": 0.0167,
+            "goal_ratio": 0.9940119760479041
+        },
+        {
+            "name": "Call Center - Ops/Procedural Performance Quality",
+            "points": 6.52,
+            "weight": 0.0667,
+            "goal_ratio": 0.9775112443778111
+        },
+        {
+            "name": "Call Center - Verbal skills quality",
+            "points": 6.46,
+            "weight": 0.0667,
+            "goal_ratio": 0.9685157421289355
+        },
+        {
+            "name": "Daily supplies - reserve multiple",
+            "points": 1.58,
+            "weight": 0.0167,
+            "goal_ratio": 0.9461077844311377
+        },
+        {
+            "name": "Spay/neuter vouchers redeemed",
+            "points": 1.21,
+            "weight": 0.0133,
+            "goal_ratio": 0.9097744360902256
+        },
+        {
+            "name": "Average total calls per officer",
+            "points": 3.58,
+            "weight": 0.04,
+            "goal_ratio": 0.895
+        },
+        {
+            "name": "Surgeries performed",
+            "points": 3.55,
+            "weight": 0.04,
+            "goal_ratio": 0.8875
+        },
+        {
+            "name": "Social Media: New Followers",
+            "points": 0.86,
+            "weight": 0.01,
+            "goal_ratio": 0.86
+        },
+        {
+            "name": "PR Production: Special Recognitions",
+            "points": 1.6,
+            "weight": 0.02,
+            "goal_ratio": 0.8
+        },
+        {
+            "name": "Total officer education calls made (PRC)",
+            "points": 0.6,
+            "weight": 0.01,
+            "goal_ratio": 0.6
+        },
+        {
+            "name": "Social Media: Engagement",
+            "points": 1.37,
+            "weight": 0.0233,
+            "goal_ratio": 0.5879828326180258
+        }
+    ],
+    "indices": [
+        {
+            "name": "Communications & Digital Media Service Index",
+            "abbrev": "CDMSI",
+            "url": "https://www.hillsboroughcounty.org/en/government/departments/communications/communications-service-index",
+            "points": 34.64
+        },
+        {
+            "name": "Customer Service & Support Service Index",
+            "abbrev": "CSSSI",
+            "url": null,
+            "points": 34.24
+        },
+        {
+            "name": "Pet Resource Center Service Index",
+            "abbrev": "PRCSI",
+            "url": null,
+            "points": 34.26
+        }
+    ],
+    "categories": [
+        {
+            "name": "Customer Feedback",
+            "points": 42.64
+        },
+        {
+            "name": "Productivity",
+            "points": 27.95
+        },
+        {
+            "name": "Quality",
+            "points": 32.55
+        }
+    ]
+}

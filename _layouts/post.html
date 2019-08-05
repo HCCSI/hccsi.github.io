@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign report_index = page.date | date: "%Y%m" %}
+{% assign report = site.data.reports[report_index] %}
+
 <div class="py-5">
   <div class="container">
 
@@ -13,7 +16,7 @@ layout: default
           </small>
 
           <div class="display-4">
-            {{ page.index }}
+            {{ report.points }}
           </div>
         </h2>
 
@@ -32,27 +35,40 @@ layout: default
 
     <hr class="bg-dark my-4 pt-1">
 
-    <div class="row align-items-center">
-      <div class="col-md-5 order-md-12 my-3">
+    <div class="row">
+      <div class="col-md-5 order-md-12 mb-3">
 
-        <h3>Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h3>
+        <h3 class="mt-0">Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h3>
 
         <ol class="">
-          <li class="">Social Media: Engagement</li>
-          <li class="">PR Production: Special Recognitions</li>
-          <li class="">Web: Avg. Problem Resolution Time</li>
-          <li class="">Citizen Engagement - Posted Signage</li>
-          <li class="">Supervisor kennel inspections</li>
+          {% for indicator in report.indicators | limit: 5 %}
+          <li>
+            {{ indicator.name }} @ {{ indicator.goal_ratio | times: 100 | round: 2 }}%
+          </li>
+          {% endfor %}
         </ol>
 
       </div>
-      <div class="col-md-7 order-md-1 my-3">
+      <div class="col-md-7 order-md-1 mb-3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
         <ul>
-          <li><a href="#">CDMSI</a></li>
-          <li><a href="#">CSSSI</a></li>
-          <li><a href="#">PRCSI</a></li>
+          {% for index in report.indices %}
+          <li>
+            {{ index.name }}
+            (<a href="{{ index.url }}" target="_blank" class="hide-external-indicator">{{ index.abbrev }}</a>):
+            {{ index.points }}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <ul>
+          {% for category in report.categories %}
+          <li>
+            {{ category.name }}:
+            {{ category.points }}
+          </li>
+          {% endfor %}
         </ul>
 
         <!-- {% include graph.html %} -->

@@ -1,6 +1,9 @@
 <div class="row no-gutters align-items-stretch justify-content-center">
   {% for post in site.posts %}
 
+  {% assign report_index = post.date | date: "%Y%m" %}
+  {% assign report = site.data.reports[report_index] %}
+
   <div class="col-sm-6 col-lg-4 col-xl-3 p-1">
     <a href="{{ post.url | prepend: site.baseurl }}" class="card v-card card-body list-group-item-action text-center d-flex flex-column h-100">
       <div class="mb-2">
@@ -9,11 +12,11 @@
       </div>
       <div class="text-muted">
         <em>
-          {{ post.date | date: "%B, %Y" }}
+          {{ report.name }}
         </em>
       </div>
       <div class="h5 font-weight-bold">
-        {{ post.index" }}
+        {{ report.points" }}
       </div>
     </a>
   </div>
