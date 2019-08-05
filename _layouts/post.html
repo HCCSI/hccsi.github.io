@@ -10,7 +10,7 @@ layout: default
 
     <div class="row">
       <div class="col-lg-5">
-        <h2 class="">
+        <h1 class="">
           <small class="d-block">
             {{ page.date | date: "%B" }}'s Service Index
           </small>
@@ -35,22 +35,16 @@ layout: default
 
     <hr class="bg-dark my-4 pt-1">
 
+    <h3>The Hillsborough County Consolidated Service Index</h3>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
     <div class="row">
-      <div class="col-md-5 order-md-12 mb-3">
+      <div class="col-md-7 mb-3">
 
-        <h3 class="mt-0">Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h3>
-
-        <ol class="">
-          {% for indicator in report.indicators | limit: 5 %}
-          <li>
-            {{ indicator.name }} @ {{ indicator.goal_ratio | times: 100 | round: 2 }}%
-          </li>
-          {% endfor %}
-        </ol>
-
-      </div>
-      <div class="col-md-7 order-md-1 mb-3">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <h4>By Department Index</h4>
 
         <ul>
           {% for index in report.indices %}
@@ -62,6 +56,8 @@ layout: default
           {% endfor %}
         </ul>
 
+        <h4>By Category</h4>
+
         <ul>
           {% for category in report.categories %}
           <li>
@@ -72,6 +68,19 @@ layout: default
         </ul>
 
         <!-- {% include graph.html %} -->
+      </div>
+      <div class="col-md-5 mb-3">
+
+        <h4 class="mt-0">Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h4>
+
+        <ol class="">
+          {% for indicator in report.indicators | limit: 5 %}
+          <li>
+            {{ indicator.name }} @ {{ indicator.goal_ratio | times: 100 | round: 2 }}%
+          </li>
+          {% endfor %}
+        </ol>
+
       </div>
     </div>
 
