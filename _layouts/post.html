@@ -74,7 +74,7 @@ layout: default
         <h4 class="mt-0">Top 5 contributors of {{ page.date | date: "%B, %Y" }}</h4>
 
         <ol class="">
-          {% for indicator in report.indicators | limit: 5 %}
+          {% for indicator in report.indicators limit: 5 %}
           <li>
             {{ indicator.name }} @ {{ indicator.goal_ratio | times: 100 | round: 2 }}%
           </li>
