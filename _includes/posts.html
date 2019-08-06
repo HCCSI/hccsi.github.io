@@ -1,8 +1,8 @@
 <div class="row no-gutters align-items-stretch justify-content-center">
   {% for post in site.posts %}
 
-  {% assign report_index = post.date | date: "%Y%m" %}
-  {% assign report = site.data.reports[report_index] %}
+  {% assign report_date = post.date | date: "%Y-%m-%d" %}
+  {% assign report = site.data.reports | where:"date",report_date | first %}
 
   <div class="col-sm-6 col-lg-4 col-xl-3 p-1">
     <a href="{{ post.url | prepend: site.baseurl }}" class="card v-card card-body list-group-item-action text-center d-flex flex-column h-100">

@@ -2,7 +2,11 @@
   <div class="gradient-diag-danger pt-sm-5 d-flex align-items-end h-100">
     <div class="container pt-4 px-sm-4 bg-white">
       <h1 id="dynamicallyGeneratedSectionId1" class="mt-0 text-left text-dark font-weight-bold display-3">
+        {% if page.layout == 'post' %}
         HCCSI {{ page.date | date: "%B, %Y" }}
+        {% else %}
+        Consolidated Service Index
+        {% endif %}
       </h1>
       <hr class="bg-dark m-0 pt-1">
       <nav aria-label="Breadcrumb Navigation">

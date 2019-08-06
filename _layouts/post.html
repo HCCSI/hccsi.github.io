@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% assign report_index = page.date | date: "%Y%m" %}
-{% assign report = site.data.reports[report_index] %}
+{% assign report_date = page.date | date: "%Y-%m-%d" %}
+{% assign report = site.data.reports | where:"date",report_date | first %}
 
 <div class="py-5">
   <div class="container">
