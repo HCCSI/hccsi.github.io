@@ -4,7 +4,7 @@
         "date": "2019-06-01",
         "points": 104.76,
         "created_at": "2019-08-05T17:40:54.313Z",
-        "updated_at": "2019-08-05T17:40:54.313Z",
+        "updated_at": "2019-08-07T13:52:18.579Z",
         "indicators": [
             {
                 "name": "Social Media: Engagement",
@@ -245,13 +245,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 34.18
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 31.93
             }
         ],
@@ -275,7 +275,7 @@
         "date": "2019-05-01",
         "points": 105.01,
         "created_at": "2019-08-05T17:40:40.592Z",
-        "updated_at": "2019-08-05T17:40:40.592Z",
+        "updated_at": "2019-08-07T13:09:40.816Z",
         "indicators": [
             {
                 "name": "Social Media: Engagement",
@@ -516,13 +516,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 35.5
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 32.41
             }
         ],
@@ -546,7 +546,7 @@
         "date": "2019-04-01",
         "points": 101.72,
         "created_at": "2019-08-05T17:40:22.032Z",
-        "updated_at": "2019-08-05T17:40:22.032Z",
+        "updated_at": "2019-08-07T13:09:40.819Z",
         "indicators": [
             {
                 "name": "Social Media: Engagement",
@@ -787,13 +787,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 34.06
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 31.68
             }
         ],
@@ -817,7 +817,7 @@
         "date": "2019-03-01",
         "points": 101.35,
         "created_at": "2019-08-05T17:40:09.822Z",
-        "updated_at": "2019-08-05T17:40:09.822Z",
+        "updated_at": "2019-08-07T13:09:40.823Z",
         "indicators": [
             {
                 "name": "Social Media: Engagement",
@@ -1058,13 +1058,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 34.08
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 31.68
             }
         ],
@@ -1088,7 +1088,7 @@
         "date": "2019-02-01",
         "points": 103.14,
         "created_at": "2019-08-05T17:39:55.164Z",
-        "updated_at": "2019-08-05T17:39:55.164Z",
+        "updated_at": "2019-08-07T13:09:40.827Z",
         "indicators": [
             {
                 "name": "Web: Avg. Problem Resolution Time",
@@ -1329,13 +1329,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 34.24
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 34.26
             }
         ],
@@ -1359,7 +1359,7 @@
         "date": "2019-01-01",
         "points": 102.39,
         "created_at": "2019-08-05T17:39:26.059Z",
-        "updated_at": "2019-08-05T17:39:26.059Z",
+        "updated_at": "2019-08-07T13:09:40.831Z",
         "indicators": [
             {
                 "name": "PR Production: Special Recognitions",
@@ -1600,13 +1600,13 @@
             {
                 "name": "Customer Service & Support Service Index",
                 "abbrev": "CSSSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/customer/customer-service-index",
                 "points": 33.46
             },
             {
                 "name": "Pet Resource Center Service Index",
                 "abbrev": "PRCSI",
-                "url": "#",
+                "url": "https://www.hillsboroughcounty.org/en/government/departments/pets/pet-resource-center-service-index",
                 "points": 32.84
             }
         ],

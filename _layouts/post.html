@@ -49,8 +49,10 @@ layout: default
         <ul>
           {% for index in report.indices %}
           <li>
-            {{ index.name }}
-            (<a href="{{ index.url }}" target="_blank" class="hide-external-indicator">{{ index.abbrev }}</a>):
+            <a href="{{ index.url }}" target="_blank" class="hide-external-indicator">
+              {{ index.name }}
+            </a>
+            ({{ index.abbrev }}):
             {{ index.points }}
           </li>
           {% endfor %}
