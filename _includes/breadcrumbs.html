@@ -5,7 +5,7 @@
         {% if page.layout == 'post' %}
         HCCSI {{ page.date | date: "%B, %Y" }}
         {% else %}
-        Consolidated Service Index
+        {{ site.title }}
         {% endif %}
       </h1>
       <hr class="bg-dark m-0 pt-1">
@@ -17,14 +17,16 @@
 
           {% if page.layout == 'post' %}
           <li aria-current="page" class="breadcrumb-item active">
-            <a href="{{ '/' | prepend: site.baseurl }}">Consolidated Service Index (HCCSI)</a>
+            <a href="{{ '/' | prepend: site.baseurl }}">
+              {{ site.title }}
+            </a>
           </li>
           <li aria-current="page" class="breadcrumb-item active">
             HCCSI {{ page.date | date: "%B, %Y" }}
           </li>
           {% else %}
           <li aria-current="page" class="breadcrumb-item active">
-            Consolidated Service Index (HCCSI)
+            {{ site.title }}
           </li>
           {% endif %}
 
