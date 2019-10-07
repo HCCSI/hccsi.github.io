@@ -38,8 +38,10 @@ layout: default
     <h3>The Hillsborough County Consolidated Service Index</h3>
 
     <p>
-      Each month, the Communications & Digital Media department produces the Communications & Digital Media Service Index (CDMSI.) This monthly report objectively measures the performance of each section of the department and informs sound business decisions on how to allocate resources to best serve our customers. The CDMSI helps us ensure customer service excellence and rewards the positive contributions by our team.
+      {{ site.description }}
     </p>
+
+    {% if report != nil %}
 
     <div class="row">
       <div class="col-md-7 mb-3">
@@ -85,6 +87,8 @@ layout: default
 
       </div>
     </div>
+
+    {% endif %}
 
   </div>
 </div>
